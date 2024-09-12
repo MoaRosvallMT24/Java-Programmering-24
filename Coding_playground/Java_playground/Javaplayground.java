@@ -1,18 +1,18 @@
 public class Javaplayground {
     public static void main(String[] args) {
 
-        int number1 = 11;
-        int number2 = 22;
-        int number3 = 33;
-        int number4 = 44;
-        int number5 = 55;
+        int number = 0;
+        int sum = 0;
 
-        int sum=number1+number2+number3+number4+number5;
-        int product=number1*number2*number3*number4*number5;
-    
-            System.out.print("The product of all numbers is ");
-            System.out.println(product);
+       for (int i = 0; i <= 20; i++) {
+        if (number % 2 != 0) {
+            sum = sum + number;      
+        }
+        number++; 
+       }
 
-
+       System.out.println("The sum of the first 10 odd numbers is " + sum);
+        
+       }
+            
     }
-}
