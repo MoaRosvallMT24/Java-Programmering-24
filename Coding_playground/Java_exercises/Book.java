@@ -24,14 +24,16 @@ public class Book {
         Book newBook = new Book();
             
 
-        System.out.println(drivingMissDaisy);
-        System.out.println(drivingMissDaisy.title);
-        System.out.println(drivingMissDaisy.author);
-        System.out.println(drivingMissDaisy.year);
         System.out.println(newBook);
         System.out.println(newBook.title);
         System.out.println(newBook.author);
         System.out.println(newBook.year);
+       
+        System.out.println(drivingMissDaisy);
+        System.out.println(drivingMissDaisy.title);
+        System.out.println(drivingMissDaisy.author);
+        System.out.println(drivingMissDaisy.year);
+    
     }
 
     
