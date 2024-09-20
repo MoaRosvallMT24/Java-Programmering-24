@@ -1,5 +1,7 @@
 package Coding_playground.Java_exercises;
 
+
+
 public class Car {
     
     String make;
@@ -8,8 +10,10 @@ public class Car {
     String color;
 
     
+  
+
     public Car(String make, String model, String color){
-        this(make, model, 0000, color);
+        this(make, model, 0, color);
     }
 
     public Car(String make, String model, int year, String color){
