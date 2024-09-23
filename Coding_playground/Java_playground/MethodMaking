@@ -1,0 +1,37 @@
+Metoder deklareras med följande:
+
+
+• En typ (returtyp, exempelvis int, String, void)
+• Ett metodnamn (namnet vi sedan kan anropa metoden med)
+• Parenteser (för att kunna ta emot argument, om tom tar metoden inga argument)
+• Ett kodblock (Instruktioner att exekvera när metoden anropas, avgränsas med { } )
+
+type metodNamn() { Instruktioner att exekvera }
+
+Metoder skrivs inne i klassen, men utanför main-metoden! Spelar ingen roll om den metod som anropas står före eller efter main. 
+
+Keyword static = metoden behöver ingen instans av klassen för att köras!
+
+SPOILER: bara void main går bra numera, en behöver inte skriva public static void main(String[] args)
+
+Specificera vilken typ metoden ska returnera (t.ex. primitiva variabler eller objekt)
+
+void om du vill ändra något state hos ett objekt
+
+
+Parametrar != argument
+
+Värden vi skickar till metoden = argument t.ex. printValues(kosmos)  kosmos = argument
+
+Parametern används i metoden som "placeholder" för argument som kommer skickas in när metoden ska arbeta för oss. 
+t.ex. (Cat catObject) catObject = Parametern
+
+Det finns ingen gräns för antalet parametrar, men för många parametrar gör koden svårläst. 
+
+Ha med en access modifier (public, protected, private). Default ger åtkomst inom samma package. 
+
+
+
+
+
+
