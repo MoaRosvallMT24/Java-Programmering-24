@@ -12,7 +12,7 @@ Tärningen skall också ha en slumpgenerator som privat klassvariabel. Slumpgene
 
 För att kunna använda klassen kommer vi att behöva en metod: <code>public void roll()</code>. Den här metoden skall använda sig av slumpgeneratorn för att förändra tärningens nuvarande värde. <i>Tips</i>: ni bör använda standardklassen <code>Random</code> för detta. Random har en metod <code>public int nextInt(int maxValue)</code> som returnerar ett slumpmässigt heltal mellan 0 och (maxValue-1).
  
-<h3> Player </h3>
+<h3> Player </h3> 
 För att kunna göra ett simpelt tärningsspel skall vi nu också skapa en klass <code>Player</code> för att representera en spelare. 
 En spelare skall ha tre instansvariabler: ett namn, en poäng och en tärning. Namnet skall sättas i klassens konstruktor-metod samt ha en enkel gettermetod. Poängen skall ha getter- och setter-metoder. Tärningen är vad spelaren kommer att använda för att spela tärningsspelet. Skall vara av typen <code>Die</code>.
 
