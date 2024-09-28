@@ -17,6 +17,7 @@ public class DiceGame {
         System.out.println("How many sides to your die?");
 
         int number = sc.nextInt();
+        sc.nextLine(); //this line eats the "new line", so the program won't ignore userName input.
 
         System.out.println("Last question! What should I call you?");
 
