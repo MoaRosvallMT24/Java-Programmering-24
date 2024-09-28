@@ -7,8 +7,8 @@ public class DiceGame {
     
     public static void main(String[] args) {
        
-        public Scanner sc = new Scanner(System.in);
-        
+        Scanner sc = new Scanner(System.in);
+        //Programmet frågar spelaren om antal omgångar, tärningens sidor och spelarens namn.
         System.out.println("Welcome to THE DICEGAME!");
         System.out.println("How many rounds would you like to play?");
         
@@ -16,7 +16,7 @@ public class DiceGame {
 
         System.out.println("How many sides to your die?");
 
-        int sides = sc.nextInt();
+        int number = sc.nextInt();
 
         System.out.println("Last question! What should I call you?");
 
