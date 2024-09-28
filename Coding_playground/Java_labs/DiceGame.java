@@ -3,9 +3,11 @@ package Coding_playground.Java_labs;
 import java.util.Scanner;
 
 public class DiceGame {
-    public Scanner sc = new Scanner(System.in);
+   
     
     public static void main(String[] args) {
+       
+        public Scanner sc = new Scanner(System.in);
         
         System.out.println("Welcome to THE DICEGAME!");
         System.out.println("How many rounds would you like to play?");
