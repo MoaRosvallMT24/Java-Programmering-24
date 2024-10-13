@@ -6,22 +6,23 @@ public class Die {
     private int value;
     private Random rand;
     
-    public Die(int getSides){
+    public Die(int sides){
         this.sides = sides;
         this.value = 1;
+        this.rand = new Random();
     }
 
     public int getSides(){
-
+        return sides;
     }
 
     public int getValue(){
-
+        return value;
     }
 
     public void roll(){
-        
-
+        int rollValue=rand.nextInt(sides);
+        value=rollValue+1;
     }
         
 }
