@@ -24,6 +24,7 @@ public class DiceGame {
         String userName = sc.nextLine();
 
         System.out.println("Okay, " + userName + "! Let's play THE DICEGAME!");
+        
         //programmet skapar spelaren och hens tärning.
         Player playerOne = new Player(userName);
         playerOne.addDie(playerSides);
@@ -40,7 +41,6 @@ public class DiceGame {
     
             sc.nextLine();
 
-            //här ska koden för själva tärningsslaget ligga.
             playerOne.rollDice();
 
             int currentValue=playerOne.getDieValue();
