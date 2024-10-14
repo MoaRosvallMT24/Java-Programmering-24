@@ -65,11 +65,13 @@ public class DiceGame {
         }
         
         System.out.println("Thank you for playing THE DICEGAME!");
+
+        sc.close();
     }  
          
 }  
     
-    
+
     
     
     
