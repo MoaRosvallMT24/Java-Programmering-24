@@ -1,4 +1,4 @@
-package Coding_playground.Java_labs;
+package Coding_playground.Java_labs.DiceGame;
 import java.util.Random;
 public class Die {
 
