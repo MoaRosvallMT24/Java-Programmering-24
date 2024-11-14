@@ -1,3 +1,5 @@
+package Coding_playground.Java_exercises.Arrays;
+
 import java.util.Random;
 public class SwitchalltheRoos {
     
